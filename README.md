@@ -56,3 +56,14 @@ vizinhos=grafo[inicio]
 
 #Saída: 'A': ['B', 'C'],
 ```
+Modo seguro de acessar os vizinhos \
+Caso um Nó | Tile não tenha vizinhos, o codigo não lança erros (`exception`)
+
+```py
+
+inicio='A'
+vizinhos=grafo.get(inicio,[])
+# Se não ouver um valor associado a esse Nó, 
+# Retorna uma lista vazia []
+#Saída: 'A': ['B', 'C'],
+```
