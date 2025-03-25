@@ -1,5 +1,4 @@
 from enum import Enum
-
 #class synthax
 class Color(Enum):
     RED=1
